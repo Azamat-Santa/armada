@@ -1,0 +1,25 @@
+.footerWrapper{
+    width: 100%;
+    background: #3A3A3A;
+    padding: 2% 0px;
+
+}
+.footerContent{
+    width: 90%;
+    margin: 0 auto;
+    color: #BCBBBB;
+    display: grid;
+    grid-template-columns: 40% 20% 20% 20%;
+    grid-gap:10px;
+}
+.footerContentItem p,
+.footerContentItem h4 {
+    margin: 1px;
+    color: white;
+    font-size: 14px;
+}
+.footerContentItem p{
+    color: #BCBBBB;
+    
+
+}

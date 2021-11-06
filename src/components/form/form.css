@@ -1,0 +1,71 @@
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+.form p,
+.form h1{
+    text-align: center;
+    margin: 5px;
+}
+
+form{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 10vh auto;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 12px -9px #000000; 
+    box-shadow: 0px 0px 12px -9px #000000;
+}
+form input {
+    border: none ;
+    outline: none;
+    max-width: 415px;
+    background: #ECE8E8;
+    padding: 7px;
+
+}
+.formBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 10px;
+    color: white;
+    background: #65256F;
+    transition: .4s;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.formBtn:hover{
+    background: #421c47;
+}
+.formBtn[type="submit"]:disabled { background: #ccc; }
+.phoneInput{
+    position: relative;
+}
+.nameInpute{
+    position: relative;
+}
+.errorTelefone{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    font-size: 12px;
+    color:red;
+    width: 300px;
+}
+.phoneInput::before{
+content: '';
+width: 30px;
+height: 30px;
+background: url('https://e7.pngegg.com/pngimages/345/7/png-clipart-flag-of-kyrgyzstan-graphy-graphics-xchng-flag-kyrgyzstan-flag-of-kyrgyzstan-thumbnail.png');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+position: absolute;
+top: 0;
+left: -45px;
+}

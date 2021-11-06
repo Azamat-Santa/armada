@@ -1,0 +1,75 @@
+.bannerWrapper{
+    width: 100vw;
+    height: 80vh;
+    border:1px solid black;
+    background: url('../../cssImg/Rectangle\ 70.png');
+    background-position: 100% 100%;
+    position: relative;
+}
+.bannerWrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background: rgb(0, 0, 0, 0.5);
+
+  }
+  .bannercontent{
+      display: flex;
+  }
+  .bannercontentTitle,
+  .bannercontentTitleTwo,
+  .bannercontentBtn,
+  .socialNetworks{
+    
+      color: white;
+      z-index: 2;
+
+      padding: 10px;
+  }
+
+  .bannercontent{
+      display: grid;
+    width: 70%;
+    margin: 100px auto;
+    grid-gap: 10px;
+      grid-template-columns: 4fr 2fr;
+      grid-template-rows: minmax(100px) ;
+  }
+  .bannercontentTitle,
+  .bannercontentTitleTwo,
+  .bannercontentBtn{
+  grid-column-start: 1;
+     
+  }
+  .bannercontentTitle{
+      font-size:50px ;
+  }
+  .bannercontentTitleTwo{
+  font-size: 30px;
+  font-weight: 100;
+}
+.bannercontentBtn{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    background:  #FFC957;
+    border-radius: 5px;
+    margin: 10px;
+    
+ 
+}
+.socialNetworks{
+  grid-column-start: 3;
+  grid-row-start: 1;
+  grid-row-end:4 ;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: end;
+  
+}

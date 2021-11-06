@@ -1,0 +1,67 @@
+.serviceBlock {
+    display: grid; 
+    width: 100%;                 
+    grid-template-columns: 4fr 4fr 4fr; 
+    margin: 0 auto;
+    grid-gap: 10px; 
+    grid-template-areas:"glass nature cow"
+                        "glassOne natureOne cow "
+                        "glassThree glassThree natureFour ";
+}
+.serviceBlock img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.areaService0 {
+    grid-area: glass;
+}
+
+.areaService1 {
+    grid-area: nature;
+}
+
+.areaService2 {
+    grid-area: cow;
+}
+
+.areaService3 {
+    grid-area: glassOne;
+}
+
+.areaService4 {
+    grid-area: natureOne;
+}
+
+.areaService5 {
+    grid-area: glassThree;
+}
+
+.areaService6 {
+    grid-area: natureFour;
+}
+.serviceBlock div{
+    position: relative;
+}
+.serviceBlock div p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+.blockAdvantage{
+    display: flex;
+    justify-content: space-between;
+    margin: 10vh 0px;
+}
+.serviceAdvantage {
+    width: 25%;
+    text-align: center;
+}
+
+
+        

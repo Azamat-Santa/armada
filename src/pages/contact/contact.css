@@ -1,0 +1,86 @@
+.wrapperContact {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.contactContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactContentLeft {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactItemTitle {
+    font-size: 20px;
+    line-height: 0;
+    color: #A4A4A4;
+    margin: 0;
+
+}
+
+.contactItemTitleItem {
+    margin-left: 20px;
+    
+}
+
+.contactContentLeft h4 {
+    margin: 0px 0px 30px 0px;
+    font-size: 20px;
+
+}
+
+.contactClock,
+.contactTelefone,
+.contactAddres {
+    position: relative;
+    width: 100%;
+    font-size: 14px;
+    margin-left: 24px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.contactAddres::after,
+.contactTelefone::after,
+.contactClock::after  {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: -12px;
+    left: -30px;
+   
+}
+.contactAddres::after{
+    background: url('../../cssImg/Frame\ 10.png');
+    background-repeat: no-repeat;
+}
+
+.contactClock::after {
+    
+    background: url('../../cssImg/Group\ \(8\).png');
+    background-repeat: no-repeat;
+  
+}
+.contactTelefone::after {
+    
+    background: url('../../cssImg/Group\ \(9\).png');
+    background-repeat: no-repeat;
+   
+}
+.yandexMapWrapper{
+    width: 420px !important;
+    height: 320px !important;
+}
+.yandexMap{
+    width: 420px !important;
+    height: 320px !important;
+}
+

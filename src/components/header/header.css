@@ -1,0 +1,84 @@
+.headerwrapper{
+  
+}
+.headerFeedback{
+    color:#FBC70E; 
+}
+.headerFirstCollumn{
+  display: flex;
+  justify-content: space-between;
+  background: #65256F;
+}
+.navSecondSpan{
+    color: #FBC70E;
+margin-left: 10px;
+}
+.headerFirstCollumn{
+    padding: 10px 8%;
+
+}
+.headerNav{
+    color:white;
+}
+.headerSecondColumn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 8%;
+
+}
+.navMenu ul{
+    display: flex;
+    list-style-type: none;
+}
+.menuItem{
+
+cursor:pointer;
+height: 42px;
+	border: none;
+	margin: 10px;
+	color: #65256F;
+	padding: 10px;
+	font-size: 18px;
+	
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+}
+.menuItemActiv{
+    border-bottom: 2px solid #FFB700;
+}
+ul a{
+    text-decoration: none;
+}
+.headerbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 10px;
+    color: white;
+    background: #65256F;
+    transition: .4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.headerbtn:hover{
+    background: #a214b8;
+}
+
+.navMenu ul li:before {
+    content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 42px;
+	background: rgba(70, 59, 59, 0.3);
+	border-radius: 5px;
+	transition: all 1s ease;
+}
+
+.navMenu ul li:hover:before {
+	width: 100%;
+}
+    

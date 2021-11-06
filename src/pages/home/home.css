@@ -1,0 +1,127 @@
+.homeContentSecOne {
+    margin: 5vh 0;
+    width: 100%;
+}
+.titleWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.serviseTitle {
+    display: inline-block;
+    background: white;
+    text-align: center;
+    margin: 10vh auto;
+    position: relative;
+}
+
+.serviseTitle::before {
+    content: '';
+    top: 50%;
+    right: 110%;
+    position: absolute;
+    width: 50vw;
+    border-top: 2px solid #BEBEBE;
+
+}
+
+.serviseTitle::after {
+    content: '';
+    top: 50%;
+    left: 110%;
+    position: absolute;
+    width: 50vw;
+    border-top: 2px solid #BEBEBE;
+
+}
+
+.h_c_sec_One_cart {
+    display: grid;
+    grid-template-columns: repeat( 4, minmax(100px, 1fr) );
+    justify-content: center;
+    grid-gap: 10px;
+    width: 100%;
+    margin:0px auto;
+}
+
+.h_c_sec_One_cart img {
+    width: 100%;
+    height: 100%;
+}
+
+.h_c_sec_One_cartTwo {
+    grid-template-columns: repeat( 3, minmax(100px, 1fr) );;
+}
+
+.h_c_sec_One_cartTwo div {
+    position: relative;
+}
+
+.h_c_sec_One_cartTwo div::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: .4s;
+}
+
+.h_c_sec_One_cartTwo div:hover:before {
+    background: rgb(0, 0, 0, 0.5);
+}
+
+.homeCardWrapper {
+    display: grid;
+    
+    grid-template-columns:repeat( 4, minmax(100px, 1fr) );
+    justify-content: center;
+    grid-gap: 10px;
+    width:100%;
+    margin: 0px auto;
+}
+
+.homeCardImg img {
+    width: 100%;
+    height: auto;
+}
+
+.homeCardPrice {
+    color: #4C1F8C;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.h_c_sec_home_nike {
+    grid-template-columns: repeat( 6, minmax(100px, 1fr) );
+
+}
+
+.homeCardWrapperTeam {
+    grid-template-columns: repeat( 3, minmax(100px, 1fr) );
+}
+
+.homeWrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+.homeCardImg{
+    overflow: hidden;
+    display: inline-block; /* Строчно-блочный элемент */
+    overflow: hidden;
+    
+transition: .4s;
+}
+.homeCardImg img{
+    
+    margin: 0;
+    display: block;
+    transition: .4s;
+}
+.homeCardImg img:hover{
+transform: scale(1.2); 
+}
+
