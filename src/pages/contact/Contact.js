@@ -1,16 +1,16 @@
 import React from 'react'
-import { YMaps, Map, Placemark } from "react-yandex-maps";
+// import { YMaps, Map, Placemark } from "react-yandex-maps";
 import './contact.css'
 
-const mapData = {
-    center: [42.853172, 74.610094],
-    zoom: 13,
-};
+// const mapData = {
+//     center: [42.853172, 74.610094],
+//     zoom: 13,
+// };
 
-const coordinates = [
+// const coordinates = [
 
-    [42.853172, 74.610094]
-];
+//     [42.853172, 74.610094]
+// ];
 
 export default function Contact() {
     return (
@@ -35,11 +35,11 @@ export default function Contact() {
                     </div>
 
                 </div>
-                <YMaps className='yandexMapWrapper'>
+                {/* <YMaps className='yandexMapWrapper'>
                     <Map defaultState={mapData} className='yandexMap'>
                         {coordinates.map((coordinate,index) => <Placemark geometry={coordinate} key={index}/>)}
                     </Map>
-                </YMaps>
+                </YMaps> */}
             </div>
         </div>
 
